@@ -1,11 +1,23 @@
 import * as React from 'react'
 
-export type Props = {
-  className?: string
+export type ReactIconProps = {
+  d: string,
+  width: number,
+  height: number,
+  color: string,
+  viewBox: string,
 }
 
-const Package: React.FC<Props> = ({ className = 'default' }) => {
-  return <h1 className={className}>react icon component</h1>
-}
+const Icon: React.FC<ReactIconProps> = ({d, width=24, height=24, color="black", viewBox='0 0 24 24'}) => (
+    <svg
+        viewBox={viewBox}
+        aria-hidden='true'
+        role='presentation'
+        width={width}
+        height={height}
+    >
+        <path d={d} fill={color} />
+    </svg>
+)
 
-export default Package
+export default Icon
