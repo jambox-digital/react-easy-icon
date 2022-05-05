@@ -98,7 +98,7 @@ const icons = {
 }
 export {icons}
 ```
-## Demos of the package in action
-TBD
+## react-icon demo
+will be added later
 ## Instructions for contributors
-TBD
+will be added later

@@ -11,7 +11,7 @@ export type ReactIconProps = {
   className?: string,
 }
 
-const Icon: React.FC<ReactIconProps> = ({d, width='24', height='auto', color='black', viewBox='0 0 24 24', ariaHidden=true, role='presentational', className}) => (
+const ReactIcon: React.FC<ReactIconProps> = ({d, width='24', height='auto', color='black', viewBox='0 0 24 24', ariaHidden=true, role='presentational', className}) => (
     <svg
         viewBox={viewBox}
         aria-hidden={`${ariaHidden}`}
@@ -24,4 +24,4 @@ const Icon: React.FC<ReactIconProps> = ({d, width='24', height='auto', color='bl
     </svg>
 )
 
-export default Icon
+export default ReactIcon
