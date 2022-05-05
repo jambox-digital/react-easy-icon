@@ -1,4 +1,4 @@
-# react-icon - reusable SVG icon component
+# react-svg-icon - reusable SVG icon component
 
 I am using this approach for all kinds of icons in any project that uses react or react based libraries/frameworks for frontend.
 
@@ -12,7 +12,7 @@ This component is used as a generic icon container without the path.
 
 Paths of icons can be listed in the object and then we can import just the icons we need to fill that generic icon container.
 
-## Limitation of react-icon component
+## Limitation of react-svg-icon component
 
 Since this component is using single SVG path for creating the icon, all icons intended for use have to be optimized.
 
@@ -22,7 +22,7 @@ The second limitation is that this is for made for "flat", single-color icons. H
 
 Also you can put background color in the CSS class, but that's about how much more color it can have.
 
-## react-icon props
+## react-svg-icon props
 
 Default `viewBox` value is opinionated as I tend to optimize icons to the size of 24 x 24 pixels.
 
@@ -49,7 +49,7 @@ You can pass the styles through the `className` prop. That prop is attached to t
 HTML example
 ```html
 <a href="/contact">
-    <ReactIcon className="react-icon" d={Icon.ARROW_LEFT} />
+    <ReactSVGIcon className="react-svg-icon" d={Icon.ARROW_LEFT} />
 </a>
 ```
 

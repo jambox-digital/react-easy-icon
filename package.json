@@ -1,5 +1,5 @@
 {
-  "name": "react-icon",
+  "name": "react-easy-icon",
   "version": "1.0.0",
   "description": "Simple react SVG icon component",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jambox-digital/react-icon.git"
+    "url": "git+https://github.com/jambox-digital/react-easy-icon.git"
   },
   "keywords": [
     "react",
@@ -20,9 +20,9 @@
   "author": "Ivan Pozderac",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jambox-digital/react-icon/issues"
+    "url": "https://github.com/jambox-digital/react-easy-icon/issues"
   },
-  "homepage": "https://github.com/jambox-digital/react-icon#readme",
+  "homepage": "https://github.com/jambox-digital/react-easy-icon#readme",
   "peerDependencies": {
     "react": "^16.8.0",
     "react-dom": "^16.8.0"

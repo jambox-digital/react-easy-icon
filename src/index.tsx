@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export type ReactIconProps = {
+export type ReactEasyIconProps = {
   d: string,
   width?: number | string,
   height?: number | string,
@@ -11,7 +11,7 @@ export type ReactIconProps = {
   className?: string,
 }
 
-const ReactIcon: React.FC<ReactIconProps> = ({d, width='24', height='auto', color='black', viewBox='0 0 24 24', ariaHidden=true, role='presentational', className}) => (
+const ReactEasyIcon: React.FC<ReactEasyIconProps> = ({d, width='24', height='auto', color='black', viewBox='0 0 24 24', ariaHidden=true, role='presentational', className}) => (
     <svg
         viewBox={viewBox}
         aria-hidden={`${ariaHidden}`}
@@ -24,4 +24,4 @@ const ReactIcon: React.FC<ReactIconProps> = ({d, width='24', height='auto', colo
     </svg>
 )
 
-export default ReactIcon
+export default ReactEasyIcon
