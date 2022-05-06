@@ -76,11 +76,11 @@ Just import the ReactIcon component and import some icons object with appropriat
 
 ```jsx
 import ReactEasyIcon from 'react-easy-icon';
-import { icons } from '../components/Icons';
+import icons from './icons';
 
 const Button = ({}) => (
     <button type="button">
-        <ReactEasyIcon d={icons.EMAIL}>
+        <ReactEasyIcon d={icons.CART}>
     <button>    
 );
 
@@ -91,14 +91,15 @@ If you are wondering how the icons object should look like, take a look at the e
 
 ```js
 const icons = {
-    CART: '',
-    EMAIL: '',
-    ARROW_LEFT: '',
-    ARROW_DOWN: ''
-}
-export {icons}
+  BULLSEYE:
+    "M12 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm0-5a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 9a7 7 0 1 1 0-14 7 7 0 0 1 0 14Zm0-12a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 15a10 10 0 1 1 0-20 10 10 0 0 1 0 20Zm0-19a9 9 0 1 0 0 18 9 9 0 0 0 0-18Z",
+  CART:
+    "M11.13 19.33a2.69 2.69 0 1 1-3.64 0H4.4V1.87l-2.13-.79H1.25V0h1.03l3.2 1.06v3.25l17.26 2.28.01 8.48H5.47v2.8l15.09.8a2.7 2.7 0 1 1-2.32.66h-7.1Zm8.93.36a1.62 1.62 0 1 1 0 3.23 1.62 1.62 0 0 1 0-3.23Zm-10.75 0a1.62 1.62 0 1 1 0 3.23 1.62 1.62 0 0 1 0-3.23ZM5.47 14h16.2V7.54L5.47 5.4V14Z"
+};
+
+export default icons;
 ```
 ## react-icon demo
-will be added later
+Head over to [CodeSandbox](https://codesandbox.io/s/react-easy-icon-example-1tbgq3) for live demo
 ## Instructions for contributors
 will be added later
