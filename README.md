@@ -16,7 +16,7 @@ Paths of icons can be listed in the object and then we can import just the icons
 
 Since this component is using single SVG path for creating the icon, all icons intended for use have to be optimized.
 
-I wrote and article on how to optimize SVG's here, so feel free to take a look.
+I wrote [an article on how to optimize SVG's here](https://dev.to/pozda/optimising-svg-icons-for-your-web-apps-and-websites-1d85), so feel free to take a look.
 
 The second limitation is that this is for made for "flat", single-color icons. Hovers etc. can be made by targeting the CSS class and making appropriate styles.
 
