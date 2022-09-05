@@ -80,11 +80,31 @@ import icons from './icons';
 
 const Button = ({}) => (
     <button type="button">
-        <ReactEasyIcon d={icons.CART}>
+        <ReactEasyIcon d={icons.CART} />
     <button>    
 );
 
 export default Button
+```
+NOTE: Since I used `default` export, you can use whatever name you want for your icon component. For instance you can use `import Icon from "react-easy-icon"` if that suits better. I have used this on my [CodeSandbox live demo here](https://codesandbox.io/s/react-easy-icon-example-1tbgq3). 
+
+Here's the code from CodeSandbox:
+
+```jsx
+import Icon from "react-easy-icon";
+import icons from "./icons";
+
+export default function App() {
+  return (
+    <div className="App">
+      <h1>
+        Hello WebShop <Icon d={icons.CART} />
+      </h1>
+      <h2>Start editing to see some magic happen!</h2>
+      <Icon d={icons.BULLSEYE} width={64} color={"orange"} />
+    </div>
+  );
+}
 ```
 
 If you are wondering how the icons object should look like, take a look at the example below.
